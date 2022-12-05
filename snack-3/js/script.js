@@ -59,13 +59,25 @@ const zucchini = [
         length : 28
     }];
 
-let sum =0;
+let sumWeight = 0;
+let mediaWeight = 0;
+
+let sumLength = 0;
+let mediaLength = 0;
 for (let index = 0; index < zucchini.length; index++) {
     const currentZucchini = zucchini[index];
-    sum += currentZucchini.weight
+    sumWeight += currentZucchini.weight;
+    mediaWeight = sumWeight / zucchini.length;
+
+    sumLength += currentZucchini.length;
+    mediaLength = sumLength / zucchini.length;
 }
 
 
-console.log(sum);
+console.log(sumWeight + ' somma dei pesi');
+console.log(mediaWeight + ' media dei pesi');
+
+console.log(sumLength + ' somma delle lunghezze');
+console.log(mediaLength + ' media delle lunghezze');
 
 
