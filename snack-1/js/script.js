@@ -8,7 +8,7 @@ const studente = {
     age : 27
 }
 
-for (const key in studente) {
+for (let key in studente) {
     console.log(key + " => " + studente[key]);
 }
 
@@ -23,5 +23,10 @@ const students = [{
     age : 25
 }]
 
-console.log(classe);
+console.log(students);
+
+for (let index = 0; index < students.length; index++) {
+    console.log(students[index]);
+    
+}
 
