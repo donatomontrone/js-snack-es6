@@ -14,17 +14,17 @@ const zucchini = [
         length : 35
     },
     {
-        brand : 'trombetta',
+        type : 'trombetta',
         weight : 30,
         length : 40
     },
     {
-        brand : 'gialla',
+        type : 'gialla',
         weight : 14,
         length : 42
     },
     {
-        brand : 'napoletana',
+        type : 'napoletana',
         weight : 13,
         length : 25
     },
@@ -34,17 +34,17 @@ const zucchini = [
         length : 43
     },
     {
-        brand : 'trombetta',
+        type : 'trombetta',
         weight : 31,
         length : 31
     },
     {
-        brand : 'gialla',
+        type : 'gialla',
         weight : 35,
         length : 23
     },
     {
-        brand : 'napoletana',
+        type : 'napoletana',
         weight : 23,
         length : 41
     },
@@ -54,7 +54,7 @@ const zucchini = [
         length : 37
     },
     {
-        brand : 'trombetta',
+        type : 'trombetta',
         weight : 32,
         length : 28
     }];
