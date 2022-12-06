@@ -29,3 +29,13 @@ const animali = [
 
 const onlyMammiferi = animali.filter((animale) => animale.classe === 'mammiferi')
 console.table(onlyMammiferi);
+
+
+const upperMammiferi = onlyMammiferi.map((mammifero) => {
+    for (const key in mammifero) {
+        mammifero[key] = mammifero[key].charAt(0) + mammifero[key].substring(1).toUpperCase();
+        return mammifero;
+    }
+    })
+
+console.log(upperMammiferi);
